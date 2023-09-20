@@ -13,9 +13,9 @@
 
         <java-version>17</java-version>
 
-        <api-version>1.17</api-version>
+        <api-version>1.19</api-version>
         <bukkit-version>1.15.2-R0.1-SNAPSHOT</bukkit-version>
-        <spigot-version>1.17.1-R0.1-SNAPSHOT</spigot-version>
+        <spigot-version>1.19.1-R0.1-SNAPSHOT</spigot-version>
         <groovy-version>3.0.9</groovy-version>
         <plugin-version>DEV-SNAPSHOT</plugin-version>
 
@@ -61,7 +61,7 @@
     <dependencies>
         <dependency>
             <groupId>org.spigotmc</groupId>
-            <artifactId>spigot-api</artifactId>
+            <artifactId>spigot</artifactId>
             <version>${spigot-version}</version>
             <scope>provided</scope>
         </dependency>
@@ -167,7 +167,7 @@
                         <additionalDependency>
                             <groupId>org.bukkit</groupId>
                             <artifactId>bukkit</artifactId>
-                            <version>${bukkit-version}</version>
+                            <version>${spigot-version}</version>
                             <scope>provided</scope>
                         </additionalDependency>
                     </additionalDependencies>
